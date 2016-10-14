@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="11" extheight="544" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="85.0" height="480" id="1" name="Level1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <grad-bg b1="255" b2="255" g1="255" g2="255" r1="0" r2="204"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="5" id="9" name="Button 1" sx="1.0" sy="1.0" x="395" y="135" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="6" id="11" name="Door 2" sx="1.0" sy="1.0" x="447" y="320" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="5" id="7" name="Can 3" sx="1.0" sy="1.0" x="216" y="351" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="0" id="3" name="Noni 4" sx="1.0" sy="1.0" x="45" y="308" z="0"/>
+    </actors>
+    <snippets/>
+    <terrain>
+        <p pts="8,96.0,224.0,0.0,224.0,0.0,160.0,96.0,160.0,96.0,0.0,160.0,0.0,160.0,320.0,96.0,320.0" x="352.0" y="0.0"/>
+        <p pts="4,640.0,0.0,640.0,96.0,0.0,96.0,0.0,0.0" x="0.0" y="384.0"/>
+    </terrain>
+    <atlases members="0,1,2,3," retainAtlases="false"/>
+</scene>

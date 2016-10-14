@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-mouse-press-release comment="false" x="25" y="30">
+            <group eventID="1" id="-1">
+                <create-actor3 comment="false" x="36" y="57">
+                    <get-val-15-1 comment="false" id="0" x="0" y="0"/>
+                    <get-xy comment="false" id="1" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="2"/>
+                    </get-xy>
+                    <get-xy comment="false" id="2" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="3"/>
+                    </get-xy>
+                    <int id="3" val="0"/>
+                </create-actor3>
+                <setvel comment="false" x="36" y="97">
+                    <ACTOR eid="lastcreated" id="0"/>
+                    <times comment="false" id="1" x="0" y="0">
+                        <int id="0" val="180"/>
+                        <div comment="false" id="1" x="0" y="0">
+                            <atan2 comment="false" id="0" x="0" y="0">
+                                <minus comment="false" id="0" x="0" y="0">
+                                    <mousexy comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="1"/>
+                                        <int id="1" val="1"/>
+                                    </mousexy>
+                                    <plus comment="false" id="1" x="0" y="0">
+                                        <get-xy comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="5"/>
+                                        </get-xy>
+                                        <times comment="false" id="1" x="0" y="0">
+                                            <get-wh comment="false" id="0" x="0" y="0">
+                                                <ACTOR eid="this" id="0"/>
+                                                <int id="1" val="0"/>
+                                            </get-wh>
+                                            <int id="1" val=".5"/>
+                                        </times>
+                                    </plus>
+                                </minus>
+                                <minus comment="false" id="1" x="0" y="0">
+                                    <mousexy comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="0"/>
+                                        <int id="1" val="0"/>
+                                    </mousexy>
+                                    <plus comment="false" id="1" x="0" y="0">
+                                        <get-xy comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="4"/>
+                                        </get-xy>
+                                        <times comment="false" id="1" x="0" y="0">
+                                            <get-wh comment="false" id="0" x="0" y="0">
+                                                <ACTOR eid="this" id="0"/>
+                                                <int id="1" val="0"/>
+                                            </get-wh>
+                                            <int id="1" val=".5"/>
+                                        </times>
+                                    </plus>
+                                </minus>
+                            </atan2>
+                            <pi comment="false" id="1" x="0" y="0"/>
+                        </div>
+                    </times>
+                    <plus comment="false" id="2" x="0" y="0">
+                        <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="50"/>
+                    </plus>
+                </setvel>
+                <kill-leave-screen comment="false" x="36" y="167">
+                    <ACTOR eid="lastcreated" id="0"/>
+                </kill-leave-screen>
+            </group>
+            <int id="0" val="0"/>
+        </event-mouse-press-release>
+    </group>
+    <group eventID="1" id="1">
+        <set-dxy comment="false" x="352" y="436">
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="0"/>
+            <int id="2" val=""/>
+        </set-dxy>
+    </group>
+    <group eventID="1" id="2">
+        <push-shove comment="false" x="193" y="395">
+            <ACTOR eid="lastcreated" id="0"/>
+            <int id="1" val="1"/>
+            <int id="2" val=""/>
+            <int id="3" val=""/>
+            <int id="4" val="1000"/>
+        </push-shove>
+    </group>
+    <group eventID="1" id="3">
+        <die comment="false" x="220" y="457">
+            <ACTOR eid="this" id="0"/>
+        </die>
+    </group>
+    <group eventID="1" id="4">
+        <if comment="false" x="92" y="457">
+            <group eventID="1" id="-1"/>
+            <int id="0" val=""/>
+        </if>
+    </group>
+    <group eventID="1" id="-1">
+        <div comment="false" x="410" y="528">
+            <int id="0" val=""/>
+            <pi comment="false" id="1" x="0" y="0"/>
+        </div>
+        <times comment="false" x="39" y="314">
+            <int id="0" val="180"/>
+            <trig-master comment="false" id="1" x="0" y="0">
+                <int id="0" val="5"/>
+                <div comment="false" id="1" x="0" y="0">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <mousexy comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                            <int id="1" val="0"/>
+                        </mousexy>
+                        <get-xy comment="false" id="1" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="2"/>
+                        </get-xy>
+                    </minus>
+                    <minus comment="false" id="1" x="0" y="0">
+                        <mousexy comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                            <int id="1" val="1"/>
+                        </mousexy>
+                        <get-xy comment="false" id="1" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="3"/>
+                        </get-xy>
+                    </minus>
+                </div>
+                <int id="2" val="1"/>
+            </trig-master>
+        </times>
+        <isalive comment="false" x="157" y="541">
+            <ACTOR eid="this" id="0"/>
+        </isalive>
+        <get-xy comment="false" x="341" y="489">
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="4"/>
+        </get-xy>
+        <get-val-15-1 comment="false" x="301" y="568"/>
+    </group>
+</groups>
